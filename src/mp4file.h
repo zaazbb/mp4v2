@@ -254,6 +254,10 @@ public:
     MP4TrackId AddALawAudioTrack(
         uint32_t timeScale);
 
+    MP4TrackId AddALawAudioTrack1(
+        uint32_t timeScale,
+        uint32_t duration);
+
     MP4TrackId AddAC3AudioTrack(
         uint32_t samplingRate,
         uint8_t fscod,
